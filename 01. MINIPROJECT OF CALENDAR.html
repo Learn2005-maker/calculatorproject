@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini calendar project</title>
+    <style>
+        body{
+            margin: 0;
+            display: flex;
+         justify-content: center;
+         align-items: center;
+         height: 100vh;
+         font-family: cursive;
+         background-color: slateblue;
+        
+        }
+        .class-container{
+            background-color: white;
+            width: 300px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 4px 8px ;
+            overflow: hidden;
+        }
+        .month-name{
+            margin: 0;
+            background-color: orange;
+            color: white;
+            padding: 20px;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        .day-name{
+            font-size: 20px;
+            color: darkgrey;
+        }
+        .day-number{
+            font-size: 80px;
+            font-weight: bold;
+            margin: 0;
+        }
+        .year{
+            margin: 0;
+            font-size: 20px;
+            color: darkgrey;
+            padding: 2px;
+        }
+    </style>
+</head>
+<body>
+    <div class="class-container">
+        <p class="month-name" id="month-name">janurary</p>
+        <p class="day-name" id="day-name">wendesday</p>
+        <p class="day-number" id="day-number">19</p>
+        <p class="year" id="year">2024</p>
+    </div>
+    <script src="index.js">
+
+    </script>
+</body>
+</html>
